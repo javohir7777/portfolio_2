@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio - Bog'lanish</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/shared.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+  </head>
+  <body>
+    <!-- Header saction -->
+    <header class="main-header">
+      <div class="container">
+        <!-- <div class="container"></div> -->
+        <div class="main-header__brand">
+          <a href="Portfolio.html"> </a>
+        </div>
+        <nav class="main-navigation">
+          <ul class="main-navigation__items">
+            <li class="main-navigation__item">
+              <a href="./index.html">Asosiy</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Men haqimda</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Xizmatlar</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Mijozlar</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Portfolio</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Sheriklar</a>
+            </li>
+            <li class="main-navigation__item active">
+              <a href="./contact.html">Bog'lanish</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /Header saction -->
+
+    <div class="container">
+      <section class="contact">
+        <div class="section-title">Men bilan bog'laning</div>
+        <form action="/server.php" method="GET">
+          <textarea
+            name="messege"
+            rows="10"
+            placeholder="Xabaringizni kiriting"
+          ></textarea>
+          <div class="half-flex">
+            <div class="contact__firstname">
+              <input
+                type="text"
+                placeholder="Ismingizni kiriting"
+                name="firstname"
+              />
+            </div>
+            <div class="contact__email">
+              <input
+                type="email"
+                placeholder="Emailingizni kiriting"
+                name="email"
+              />
+            </div>
+          </div>
+
+          <input type="text" placeholder="Xat mazmuni" name="subject" />
+          <button class="button contact__send" type="submit">
+            Xabar jo'natish
+          </button>
+        </form>
+      </section>
+    </div>
+
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__brand">
+          <img src="./imges/logo.png" alt="logo" />
+        </div>
+        <nav class="footer__navigation">
+          <ul class="footer__navigation-items">
+            <li class="footer__navigation-item">
+              <a href="#">Asosiy</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#">Men haqimda</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#">Xizmatlar</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#">Mijozlar</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#">Portfolio</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#">Sheriklar</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="footer__socials">
+          <li class="footer__social">
+            <a href="#">
+              <i class="fab fa-telegram"></i>
+            </a>
+          </li>
+          <li class="footer__social">
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="footer__social">
+            <a href="#">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="footer__text">
+          Copyright 2021 All rights reserved | This templete is made with by
+          Colorlib
+        </p>
+      </div>
+    </footer>
+    <!-- /Footer section -->
+  </body>
+</html>
